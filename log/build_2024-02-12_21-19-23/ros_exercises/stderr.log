@@ -1,0 +1,3 @@
+package init file 'ros_exercises/__init__.py' not found (or not a regular file)
+warning: install_lib: '/home/racecar/racecar_ws/src/ros_exercises/build/ros_exercises/build/lib' does not exist -- no Python modules to install
+
