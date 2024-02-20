@@ -1,0 +1,23 @@
+[6.084s] Invoking command in '/home/racecar/racecar_ws/src/ros_exercises': PYTHONPATH=/home/racecar/racecar_ws/src/ros_exercises/build/ros_exercises/prefix_override:/home/racecar/racecar_ws/src/ros_exercises/install/ros_exercises/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/ros_exercises build --build-base /home/racecar/racecar_ws/src/ros_exercises/build/ros_exercises/build install --record /home/racecar/racecar_ws/src/ros_exercises/build/ros_exercises/install.log --install-scripts $base/lib/ros_exercises --single-version-externally-managed
+[7.579s] running egg_info
+[7.596s] writing build/ros_exercises/ros_exercises.egg-info/PKG-INFO
+[7.607s] writing dependency_links to build/ros_exercises/ros_exercises.egg-info/dependency_links.txt
+[7.621s] writing entry points to build/ros_exercises/ros_exercises.egg-info/entry_points.txt
+[7.631s] writing requirements to build/ros_exercises/ros_exercises.egg-info/requires.txt
+[7.640s] writing top-level names to build/ros_exercises/ros_exercises.egg-info/top_level.txt
+[7.859s] package init file 'ros_exercises/__init__.py' not found (or not a regular file)
+[7.874s] reading manifest file 'build/ros_exercises/ros_exercises.egg-info/SOURCES.txt'
+[8.049s] writing manifest file 'build/ros_exercises/ros_exercises.egg-info/SOURCES.txt'
+[8.058s] running build
+[8.060s] running build_py
+[8.080s] running install
+[8.082s] running install_lib
+[8.084s] warning: install_lib: '/home/racecar/racecar_ws/src/ros_exercises/build/ros_exercises/build/lib' does not exist -- no Python modules to install
+[8.086s] 
+[8.087s] running install_data
+[8.146s] running install_egg_info
+[8.218s] removing '/home/racecar/racecar_ws/src/ros_exercises/install/ros_exercises/lib/python3.8/site-packages/ros_exercises-0.0.0-py3.8.egg-info' (and everything under it)
+[8.370s] Copying build/ros_exercises/ros_exercises.egg-info to /home/racecar/racecar_ws/src/ros_exercises/install/ros_exercises/lib/python3.8/site-packages/ros_exercises-0.0.0-py3.8.egg-info
+[8.713s] running install_scripts
+[8.800s] writing list of installed files to '/home/racecar/racecar_ws/src/ros_exercises/build/ros_exercises/install.log'
+[8.864s] Invoked command in '/home/racecar/racecar_ws/src/ros_exercises' returned '0': PYTHONPATH=/home/racecar/racecar_ws/src/ros_exercises/build/ros_exercises/prefix_override:/home/racecar/racecar_ws/src/ros_exercises/install/ros_exercises/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/ros_exercises build --build-base /home/racecar/racecar_ws/src/ros_exercises/build/ros_exercises/build install --record /home/racecar/racecar_ws/src/ros_exercises/build/ros_exercises/install.log --install-scripts $base/lib/ros_exercises --single-version-externally-managed

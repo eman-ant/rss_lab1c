@@ -1,0 +1,2 @@
+package init file 'ros_exercises/__init__.py' not found (or not a regular file)
+Sorry: TabError: inconsistent use of tabs and spaces in indentation (simple_publisher.py, line 11)

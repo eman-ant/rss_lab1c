@@ -1,0 +1,24 @@
+[2.251s] Invoking command in '/home/racecar/racecar_ws/src/ros_exercises': PYTHONPATH=/home/racecar/racecar_ws/src/ros_exercises/build/ros_exercises/prefix_override:/home/racecar/racecar_ws/src/ros_exercises/install/ros_exercises/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/ros_exercises build --build-base /home/racecar/racecar_ws/src/ros_exercises/build/ros_exercises/build install --record /home/racecar/racecar_ws/src/ros_exercises/build/ros_exercises/install.log --install-scripts $base/lib/ros_exercises --single-version-externally-managed
+[2.935s] running egg_info
+[2.938s] writing build/ros_exercises/ros_exercises.egg-info/PKG-INFO
+[2.942s] writing dependency_links to build/ros_exercises/ros_exercises.egg-info/dependency_links.txt
+[2.949s] writing entry points to build/ros_exercises/ros_exercises.egg-info/entry_points.txt
+[2.951s] writing requirements to build/ros_exercises/ros_exercises.egg-info/requires.txt
+[2.953s] writing top-level names to build/ros_exercises/ros_exercises.egg-info/top_level.txt
+[3.037s] package init file 'ros_exercises/__init__.py' not found (or not a regular file)
+[3.048s] reading manifest file 'build/ros_exercises/ros_exercises.egg-info/SOURCES.txt'
+[3.107s] writing manifest file 'build/ros_exercises/ros_exercises.egg-info/SOURCES.txt'
+[3.109s] running build
+[3.110s] running build_py
+[3.120s] running install
+[3.124s] running install_lib
+[3.150s] byte-compiling /home/racecar/racecar_ws/src/ros_exercises/install/ros_exercises/lib/python3.8/site-packages/ros_exercises/simple_publisher.py to simple_publisher.cpython-38.pyc
+[3.156s] Sorry: TabError: inconsistent use of tabs and spaces in indentation (simple_publisher.py, line 11)
+[3.157s] running install_data
+[3.168s] running install_egg_info
+[3.174s] removing '/home/racecar/racecar_ws/src/ros_exercises/install/ros_exercises/lib/python3.8/site-packages/ros_exercises-0.0.0-py3.8.egg-info' (and everything under it)
+[3.204s] Copying build/ros_exercises/ros_exercises.egg-info to /home/racecar/racecar_ws/src/ros_exercises/install/ros_exercises/lib/python3.8/site-packages/ros_exercises-0.0.0-py3.8.egg-info
+[3.320s] running install_scripts
+[3.359s] Installing talker script to /home/racecar/racecar_ws/src/ros_exercises/install/ros_exercises/lib/ros_exercises
+[3.365s] writing list of installed files to '/home/racecar/racecar_ws/src/ros_exercises/build/ros_exercises/install.log'
+[3.381s] Invoked command in '/home/racecar/racecar_ws/src/ros_exercises' returned '0': PYTHONPATH=/home/racecar/racecar_ws/src/ros_exercises/build/ros_exercises/prefix_override:/home/racecar/racecar_ws/src/ros_exercises/install/ros_exercises/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/ros_exercises build --build-base /home/racecar/racecar_ws/src/ros_exercises/build/ros_exercises/build install --record /home/racecar/racecar_ws/src/ros_exercises/build/ros_exercises/install.log --install-scripts $base/lib/ros_exercises --single-version-externally-managed

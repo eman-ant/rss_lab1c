@@ -1,0 +1,110 @@
+[0.000000] (-) TimerEvent: {}
+[0.001271] (ros_exercises) JobQueued: {'identifier': 'ros_exercises', 'dependencies': OrderedDict()}
+[0.001693] (ros_exercises) JobStarted: {'identifier': 'ros_exercises'}
+[0.095259] (-) TimerEvent: {}
+[0.201576] (-) TimerEvent: {}
+[0.305364] (-) TimerEvent: {}
+[0.430378] (-) TimerEvent: {}
+[0.532932] (-) TimerEvent: {}
+[0.636237] (-) TimerEvent: {}
+[0.737955] (-) TimerEvent: {}
+[0.838932] (-) TimerEvent: {}
+[0.940292] (-) TimerEvent: {}
+[1.041531] (-) TimerEvent: {}
+[1.142654] (-) TimerEvent: {}
+[1.243743] (-) TimerEvent: {}
+[1.344735] (-) TimerEvent: {}
+[1.445768] (-) TimerEvent: {}
+[1.562671] (-) TimerEvent: {}
+[1.663879] (-) TimerEvent: {}
+[1.765131] (-) TimerEvent: {}
+[1.866324] (-) TimerEvent: {}
+[1.967910] (-) TimerEvent: {}
+[2.070757] (-) TimerEvent: {}
+[2.171950] (-) TimerEvent: {}
+[2.274164] (-) TimerEvent: {}
+[2.375962] (-) TimerEvent: {}
+[2.491651] (-) TimerEvent: {}
+[2.592757] (-) TimerEvent: {}
+[2.693724] (-) TimerEvent: {}
+[2.794599] (-) TimerEvent: {}
+[2.895712] (-) TimerEvent: {}
+[2.996677] (-) TimerEvent: {}
+[3.097888] (-) TimerEvent: {}
+[3.199409] (-) TimerEvent: {}
+[3.300498] (-) TimerEvent: {}
+[3.401362] (-) TimerEvent: {}
+[3.502375] (-) TimerEvent: {}
+[3.603473] (-) TimerEvent: {}
+[3.708074] (-) TimerEvent: {}
+[3.823118] (-) TimerEvent: {}
+[3.924681] (-) TimerEvent: {}
+[4.025718] (-) TimerEvent: {}
+[4.126771] (-) TimerEvent: {}
+[4.227824] (-) TimerEvent: {}
+[4.328880] (-) TimerEvent: {}
+[4.429882] (-) TimerEvent: {}
+[4.530864] (-) TimerEvent: {}
+[4.581879] (ros_exercises) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', 'build/ros_exercises', 'build', '--build-base', '/home/racecar/racecar_ws/src/ros_exercises/build/ros_exercises/build', 'install', '--record', '/home/racecar/racecar_ws/src/ros_exercises/build/ros_exercises/install.log', '--install-scripts', '$base/lib/ros_exercises', '--single-version-externally-managed'], 'cwd': '/home/racecar/racecar_ws/src/ros_exercises', 'env': {'VNCDESKTOP': 'c8303675527e:1 (racecar)', 'PYTHONIOENCODING': 'utf-8', 'HOSTNAME': 'c8303675527e', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/racecar', 'OLDPWD': '/home/racecar/racecar_ws/src/ros_exercises/ros_exercises', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/home/racecar/racecar_ws/src/ros_exercises/install:/home/sim_ws/install:/home/racecar/racecar_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'racecar', 'WINDOWID': '2097165', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XTERM_SHELL': '/bin/bash', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'AMENT_PREFIX_PATH': '/home/racecar/racecar_ws/src/ros_exercises/install/ros_exercises:/home/sim_ws/install/racecar_simulator:/opt/ros/foxy', 'SHELL': '/bin/bash', 'SIM_WS': '/home/sim_ws', 'PWD': '/home/racecar/racecar_ws/src/ros_exercises/build/ros_exercises', 'XTERM_LOCALE': 'en_US.UTF-8', 'XTERM_VERSION': 'XTerm(353)', 'PYTHONPATH': '/home/racecar/racecar_ws/src/ros_exercises/build/ros_exercises/prefix_override:/home/racecar/racecar_ws/src/ros_exercises/install/ros_exercises/lib/python3.8/site-packages:/home/racecar/racecar_ws/src/ros_exercises/install/ros_exercises/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'NO_VNC_VERSION': '1.4.0', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/sim_ws/install/racecar_simulator'}, 'shell': False}
+[4.631103] (-) TimerEvent: {}
+[4.732286] (-) TimerEvent: {}
+[4.833135] (-) TimerEvent: {}
+[4.934009] (-) TimerEvent: {}
+[5.034941] (-) TimerEvent: {}
+[5.135926] (-) TimerEvent: {}
+[5.237217] (-) TimerEvent: {}
+[5.338660] (-) TimerEvent: {}
+[5.439998] (-) TimerEvent: {}
+[5.541140] (-) TimerEvent: {}
+[5.642271] (-) TimerEvent: {}
+[5.743668] (-) TimerEvent: {}
+[5.818750] (ros_exercises) StdoutLine: {'line': b'running egg_info\n'}
+[5.837465] (ros_exercises) StdoutLine: {'line': b'writing build/ros_exercises/ros_exercises.egg-info/PKG-INFO\n'}
+[5.843844] (-) TimerEvent: {}
+[5.845109] (ros_exercises) StdoutLine: {'line': b'writing dependency_links to build/ros_exercises/ros_exercises.egg-info/dependency_links.txt\n'}
+[5.856665] (ros_exercises) StdoutLine: {'line': b'writing entry points to build/ros_exercises/ros_exercises.egg-info/entry_points.txt\n'}
+[5.870105] (ros_exercises) StdoutLine: {'line': b'writing requirements to build/ros_exercises/ros_exercises.egg-info/requires.txt\n'}
+[5.877667] (ros_exercises) StdoutLine: {'line': b'writing top-level names to build/ros_exercises/ros_exercises.egg-info/top_level.txt\n'}
+[5.944085] (-) TimerEvent: {}
+[6.037780] (ros_exercises) StderrLine: {'line': b"package init file 'ros_exercises/__init__.py' not found (or not a regular file)\n"}
+[6.060133] (-) TimerEvent: {}
+[6.090423] (ros_exercises) StdoutLine: {'line': b"reading manifest file 'build/ros_exercises/ros_exercises.egg-info/SOURCES.txt'\n"}
+[6.160375] (-) TimerEvent: {}
+[6.194523] (ros_exercises) StdoutLine: {'line': b"writing manifest file 'build/ros_exercises/ros_exercises.egg-info/SOURCES.txt'\n"}
+[6.209606] (ros_exercises) StdoutLine: {'line': b'running build\n'}
+[6.218660] (ros_exercises) StdoutLine: {'line': b'running build_py\n'}
+[6.225121] (ros_exercises) StdoutLine: {'line': b'running install\n'}
+[6.288053] (-) TimerEvent: {}
+[6.312981] (ros_exercises) StdoutLine: {'line': b'running install_lib\n'}
+[6.331412] (ros_exercises) StderrLine: {'line': b"warning: install_lib: '/home/racecar/racecar_ws/src/ros_exercises/build/ros_exercises/build/lib' does not exist -- no Python modules to install\n"}
+[6.360077] (ros_exercises) StderrLine: {'line': b'\n'}
+[6.390715] (-) TimerEvent: {}
+[6.391753] (ros_exercises) StdoutLine: {'line': b'running install_data\n'}
+[6.490948] (-) TimerEvent: {}
+[6.568714] (ros_exercises) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.591247] (-) TimerEvent: {}
+[6.653906] (ros_exercises) StdoutLine: {'line': b"removing '/home/racecar/racecar_ws/src/ros_exercises/install/ros_exercises/lib/python3.8/site-packages/ros_exercises-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[6.691458] (-) TimerEvent: {}
+[6.791077] (ros_exercises) StdoutLine: {'line': b'Copying build/ros_exercises/ros_exercises.egg-info to /home/racecar/racecar_ws/src/ros_exercises/install/ros_exercises/lib/python3.8/site-packages/ros_exercises-0.0.0-py3.8.egg-info\n'}
+[6.796945] (-) TimerEvent: {}
+[6.898085] (-) TimerEvent: {}
+[6.999885] (-) TimerEvent: {}
+[7.101011] (-) TimerEvent: {}
+[7.202119] (-) TimerEvent: {}
+[7.286967] (ros_exercises) StdoutLine: {'line': b'running install_scripts\n'}
+[7.302371] (-) TimerEvent: {}
+[7.386863] (ros_exercises) StdoutLine: {'line': b"writing list of installed files to '/home/racecar/racecar_ws/src/ros_exercises/build/ros_exercises/install.log'\n"}
+[7.402626] (-) TimerEvent: {}
+[7.436371] (ros_exercises) CommandEnded: {'returncode': 0}
+[7.502852] (-) TimerEvent: {}
+[7.606721] (-) TimerEvent: {}
+[7.707907] (-) TimerEvent: {}
+[7.808982] (-) TimerEvent: {}
+[7.914823] (-) TimerEvent: {}
+[8.017637] (-) TimerEvent: {}
+[8.226863] (-) TimerEvent: {}
+[8.331955] (-) TimerEvent: {}
+[8.443442] (-) TimerEvent: {}
+[8.544450] (-) TimerEvent: {}
+[8.587759] (ros_exercises) JobEnded: {'identifier': 'ros_exercises', 'rc': 0}
+[8.608558] (-) EventReactorShutdown: {}

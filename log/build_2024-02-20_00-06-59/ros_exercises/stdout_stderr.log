@@ -1,0 +1,22 @@
+running egg_info
+writing build/ros_exercises/ros_exercises.egg-info/PKG-INFO
+writing dependency_links to build/ros_exercises/ros_exercises.egg-info/dependency_links.txt
+writing entry points to build/ros_exercises/ros_exercises.egg-info/entry_points.txt
+writing requirements to build/ros_exercises/ros_exercises.egg-info/requires.txt
+writing top-level names to build/ros_exercises/ros_exercises.egg-info/top_level.txt
+package init file 'ros_exercises/__init__.py' not found (or not a regular file)
+reading manifest file 'build/ros_exercises/ros_exercises.egg-info/SOURCES.txt'
+writing manifest file 'build/ros_exercises/ros_exercises.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+byte-compiling /home/racecar/racecar_ws/src/ros_exercises/install/ros_exercises/lib/python3.8/site-packages/ros_exercises/simple_publisher.py to simple_publisher.cpython-38.pyc
+Sorry: TabError: inconsistent use of tabs and spaces in indentation (simple_publisher.py, line 11)
+running install_data
+running install_egg_info
+removing '/home/racecar/racecar_ws/src/ros_exercises/install/ros_exercises/lib/python3.8/site-packages/ros_exercises-0.0.0-py3.8.egg-info' (and everything under it)
+Copying build/ros_exercises/ros_exercises.egg-info to /home/racecar/racecar_ws/src/ros_exercises/install/ros_exercises/lib/python3.8/site-packages/ros_exercises-0.0.0-py3.8.egg-info
+running install_scripts
+Installing talker script to /home/racecar/racecar_ws/src/ros_exercises/install/ros_exercises/lib/ros_exercises
+writing list of installed files to '/home/racecar/racecar_ws/src/ros_exercises/build/ros_exercises/install.log'
