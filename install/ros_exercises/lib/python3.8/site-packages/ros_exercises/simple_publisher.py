@@ -13,21 +13,21 @@ class SimplePublisher(Node):
        
     def timer_callback(self):
         msg = Float32()
-        msg.data = random.randint(0, 10)
+        msg.data = random.uniform(0, 10)
         self.publisher_.publish(msg) 
-        self.get_logger().info('Publishing: "%f"' % msg.data)
+        self.get_logger().info('Publishing: %f' % msg.data)
 
 
-    def main(args=None):
-        rclpy.init(args=args)
+def main(args=None):
+    rclpy.init(args=args)
     
-        simple_publisher = SimplePublisher() 
+    simple_publisher = SimplePublisher() 
 
-        rclpy.spin(simple_publisher) 
+    rclpy.spin(simple_publisher) 
 
-        minimal_publisher.destroy_node()
-        rclpy.shutdown() 
+    minimal_publisher.destroy_node()
+    rclpy.shutdown() 
 
-if __name__ == '__main__': 
+if __name__ == '__main__':
     main() 
 
