@@ -9,16 +9,27 @@ class OpenSpacePublisher(Node):
 
     def __init__(self):
         super().__init__('open_space_publisher')
+        
+        self.declare_parameters(
+                namespace='',
+                parameters=[
+                    ('subscriber_topic', 'fake_scan'),
+                    ('publisher_topic', 'open_space')
+                ]
+        )
+
+        (param_subscriber_topic, param_publisher_topic) = self.get_parameters(['subscriber_topic', 'publisher_topic'])
+
         self.subscription = self.create_subscription(
                 LaserScan,
-                'fake_scan',
+                param_subscriber_topic.value,
                 self.listener_callback,
                 10)
         self.subscription
 
         self.publisher_ = self.create_publisher(
                 OpenSpace,
-                'open_space',
+                param_publisher_topic.value,
                 10)
 
     def listener_callback(self, msg):
