@@ -3,6 +3,7 @@ import math
 from rclpy.node import Node
 from std_msgs.msg import Float32
 from sensor_msgs.msg import LaserScan
+from custom_msgs.msg import OpenSpace
 
 class OpenSpacePublisher(Node):
 
@@ -15,30 +16,29 @@ class OpenSpacePublisher(Node):
                 10)
         self.subscription
 
-        self.publisher_distance_ = self.create_publisher(
-                Float32,
-                'open_space/distance',
+        self.publisher_ = self.create_publisher(
+                OpenSpace,
+                'open_space',
                 10)
-        self.publisher_angle_ = self.create_publisher(
-                Float32,
-                'open_space/angle',
-                10)
-
 
     def listener_callback(self, msg):
         ranges = msg.ranges
         max_range = Float32()
         max_angle = Float32() 
+        open_space_msg = OpenSpace()
 
         max_range.data = max(ranges) 
-        max_range_ix= ranges.index(max_range.data)
+        max_range_ix = ranges.index(max_range.data)
         
         max_angle.data = ((math.pi*4)/3)*(max_range_ix/400)-((math.pi*2)/3)
-        self.publisher_distance_.publish(max_range)
-        self.get_logger().info('Publishing longest range: %f' % max_range.data)
         
-        self.publisher_angle_.publish(max_angle)
-        self.get_logger().info('Publishing corresponding angle: %f' % max_angle.data)
+        open_space_msg.angle = max_angle
+        open_space_msg.distance = max_range 
+
+        self.publisher_.publish(open_space_msg)
+
+        self.get_logger().info('Publishing longest distance: %f' % open_space_msg.distance.data)
+        self.get_logger().info('Publishing corresponding angle: %f' % open_space_msg.angle.data)
 
 def main(args=None):
     rclpy.init(args=args)
