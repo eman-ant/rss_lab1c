@@ -34,14 +34,12 @@ class OpenSpacePublisher(Node):
 
     def listener_callback(self, msg):
         ranges = msg.ranges
-        max_range = Float32()
-        max_angle = Float32() 
         open_space_msg = OpenSpace()
 
-        max_range.data = max(ranges) 
+        max_range = max(ranges) 
         max_range_ix = ranges.index(max_range.data)
         
-        max_angle.data = ((math.pi*4)/3)*(max_range_ix/400)-((math.pi*2)/3)
+        max_angle = ((math.pi*4)/3)*(max_range_ix/400)-((math.pi*2)/3)
         
         open_space_msg.angle = max_angle
         open_space_msg.distance = max_range 

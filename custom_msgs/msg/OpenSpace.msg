@@ -1,2 +1,2 @@
-std_msgs/Float32 angle
-std_msgs/Float32 distance 
+float32 angle
+float32 distance 

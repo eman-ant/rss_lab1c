@@ -3,6 +3,7 @@ import math
 import random
 from rclpy.node import Node
 from sensor_msgs.msg import LaserScan 
+from std_msgs.msg import Float32 
 
 class FakeScanPublisher(Node):
 
@@ -28,6 +29,11 @@ class FakeScanPublisher(Node):
                 LaserScan,
                 param_publish_topic.value,
                 10)
+        
+        self.range_test = self.create_publisher(
+                Float32,
+                'range_test',
+                10)
 
         timer_period = param_publish_rate.value
         self.timer = self.create_timer(timer_period, self.timer_callback)
@@ -44,13 +50,20 @@ class FakeScanPublisher(Node):
         msg.scan_time = param_publish_rate.value
         msg.range_min = param_range_min.value
         msg.range_max = param_range_max.value
-        msg.ranges = [random.uniform(msg.range_min, msg.range_max) for _ in range(int((msg.range_max-msg.range_min)/msg.angle_increment))]
-
+        msg.ranges = [random.uniform(msg.range_min, msg.range_max) for _ in range(1 + int((msg.angle_max-msg.angle_min)/msg.angle_increment))]
+        
+        
         msg.header.frame_id = 'base_link'
         msg.header.stamp = self.get_clock().now().to_msg()
 
         self.publisher_.publish(msg)
-        self.get_logger().info('Publishing fake laser scan')
+        self.get_logger().info(f'angle max: {msg.angle_max}, angle min: {msg.angle_min}, angle increment: {msg.angle_increment}, ranges length: {len(msg.ranges)}')
+        
+
+        tst_msg = Float32()
+        tst_msg.data = float(len(msg.ranges))
+        self.range_test.publish(tst_msg)
+
 
 def main(args=None):
     rclpy.init(args=args)

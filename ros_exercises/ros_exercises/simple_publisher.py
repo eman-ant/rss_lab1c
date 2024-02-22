@@ -13,10 +13,8 @@ class SimplePublisher(Node):
        
     def timer_callback(self):
         msg = Float32()
-        msg.data = random.uniform(0, 10)
+        msg.data = random.random()*10
         self.publisher_.publish(msg) 
-        self.get_logger().info('Publishing: %f' % msg.data)
-
 
 def main(args=None):
     rclpy.init(args=args)
